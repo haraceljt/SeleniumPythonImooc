@@ -20,6 +20,7 @@ email_element.send_keys('sdfsd')
 driver.find_element_by_id('captcha_code').send_keys("test")
 print(driver.find_element_by_id('register_email-error').text)
 print(driver.find_element_by_id('register_email-error').get_attribute('value'))
+#pull from github
 #just fro parctice zhushi git
 #driver.save_screenshot("E:/Teacher/Imooc/imooc2.png")
 #code_element = driver.find_element_by_id("getcode_num")
